@@ -1,1 +1,34 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700italic,700);
+
+
+.heading {
+    height: 75px;
+    width: 100%;
+    background-color: #e1eef3;
+}
+
+.heading h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #838994;
+    font-size: 42px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #838994;
+    font-size: 25px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icons {
+    background-color: #364347;
+    margin-top: 20px;
+}
+
+.icons li {
+    display: inline;
+    margin: 25px;
+    margin-right: 10px;
+}
