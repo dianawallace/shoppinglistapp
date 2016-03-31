@@ -2,15 +2,26 @@
 
 .heading {
     height: 75px;
-    width: 100%;
     background-color: #e1eef3;
+}
+
+.container {
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+}
+
+.heading i {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 25px;
 }
 
 .heading h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #838994;
+    color: #02baf2;
     font-size: 42px;
     font-weight: 700;
+   
     -webkit-font-smoothing: antialiased;
 }
 
@@ -18,17 +29,39 @@ h2 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #838994;
     font-size: 25px;
-    margin-top: 25px;
     -webkit-font-smoothing: antialiased;
+    color: #02baf2;
 }
 
-.icons {
+.items h2 {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.items {
+    height: 50px;
+    border: 1px solid #e1eef3;
+}
+
+.items label {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.items i {
+    padding-top: 15px;
+}
+
+.footer-icons {
     background-color: #364347;
     margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
 }
 
-.icons li {
+.footer-icons li {
     display: inline;
     margin: 25px;
-    margin-right: 10px;
+    margin-left: 0;
 }
