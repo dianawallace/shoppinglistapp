@@ -43,9 +43,19 @@
     margin-left: 80px;
 }
 
+.input-field {
+    background-color: #e1eef3;
+}
+
 .btn-info {
     margin-left: 80px;
-    margin-top: 25px;
+    margin-top: 20px;
+}
+
+label.remember {
+    color: #02baf2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
 }
 
 .heading i {
@@ -80,6 +90,11 @@ h4 {
     color: #02baf2;
 }
 
+h5 {
+    font-family: 'Source Sans Pro' , sans-serif;
+    color: #02baf2;
+}
+
 .items h2 {
     margin-top: 5px;
     padding-top: 5px;
@@ -88,6 +103,8 @@ h4 {
 .items {
     height: 50px;
     border: 1px solid #e1eef3;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .items label {
