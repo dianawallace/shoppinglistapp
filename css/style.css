@@ -116,16 +116,34 @@ h5 {
     padding-top: 15px;
 }
 
+.icons {
+    margin-top: 10px;
+    padding: 0;
+}
+
 .footer-icons {
     background-color: #364347;
-    margin-top: 20px;
     position: fixed;
     bottom: 0;
     height: 50px;
+    width: 100%;
 }
 
 .footer-icons li {
-    display: inline;
-    margin: 25px;
-    margin-left: 0;
+    display: inline-block;
+    width: 19%;   
+    color: #02baf2;
+    text-align: center;
 }
+
+/*Media Queries */
+
+@media screen and (min-width: 768px) {
+    
+.footer-icons li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 60px;
+    color: #02baf2;
+} 
+
